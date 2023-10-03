@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.PgLogin {
+  background-image: url('https://i.imgur.com/jm2TElq.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Use viewport height to cover the entire screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  color: white;
+  margin: 0 auto; 
+}
+
+.login-logo img {
+  width: 350px;
+  height: 350px;
+}
+
+.login-right {
+  background-color: rgba(4, 4, 104, 0.774);
+  color: rgb(116, 42, 145);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  margin: auto; 
+}
+
+.login-right h1 {
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.login-right h4 {
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(105, 47, 128);
+}
+
+.login-loginInputEmail {
+  display: flex;
+  align-items: center;
+  color: rgb(105, 47, 128);
+  background-color: #221f1f;
+  border-radius: 5px;
+  padding: 3px;
+  width: 98%;
+  height: 50px;
+}
+
+.login-loginInputEmail svg {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.login-loginInputEmail input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #f8f8f8;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-loginInputPassword {
+  display: flex;
+  align-items: center;
+  color: rgb(105, 47, 128);
+  background-color: #221f1f;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 5px;
+  width: 98%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.login-loginInputPassword svg {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.login-loginInputPassword input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color:  #f3f3f3;
+  border: none;
+  font-size: 17px;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.login-right button {
+  width: 98%;
+  background-color: #3a0f9e70;
+  color: rgb(105, 47, 128);
+  font-weight: 800;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  border: none;
+
+  outline-width: 0;
+}
+
+.login-right button:hover {
+  background-color: rgba(78, 11, 105, 0.678);
+  color: #1410ff;
+  cursor: pointer;
+}
+
+.login-eye {
+  align-items: center;
+  justify-content: center;
+  font-size: 30;
+  cursor: pointer;
+  margin-right: 10px;
+}
